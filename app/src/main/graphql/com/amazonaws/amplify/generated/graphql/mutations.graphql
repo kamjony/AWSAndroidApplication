@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateCar($input: CreateCarInput!) {
+  createCar(input: $input) {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}
+mutation UpdateCar($input: UpdateCarInput!) {
+  updateCar(input: $input) {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}
+mutation DeleteCar($input: DeleteCarInput!) {
+  deleteCar(input: $input) {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}

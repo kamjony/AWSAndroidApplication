@@ -1,0 +1,19 @@
+{
+    "myenv": {
+        "awscloudformation": {
+            "AuthRoleName": "awsandroidapp-myenv-20190521203831-authRole",
+            "UnauthRoleArn": "arn:aws:iam::265505923169:role/awsandroidapp-myenv-20190521203831-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::265505923169:role/awsandroidapp-myenv-20190521203831-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "awsandroidapp-myenv-20190521203831-deployment",
+            "UnauthRoleName": "awsandroidapp-myenv-20190521203831-unauthRole",
+            "StackName": "awsandroidapp-myenv-20190521203831",
+            "StackId": "arn:aws:cloudformation:eu-west-2:265505923169:stack/awsandroidapp-myenv-20190521203831/1cead2c0-7bd6-11e9-99df-0a1170ef5528"
+        },
+        "categories": {
+            "auth": {
+                "cognitobea4868d": {}
+            }
+        }
+    }
+}

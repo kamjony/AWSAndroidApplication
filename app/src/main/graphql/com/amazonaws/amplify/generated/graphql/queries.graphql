@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+query GetCar($id: ID!) {
+  getCar(id: $id) {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}
+query ListCars($filter: ModelCarFilterInput, $limit: Int, $nextToken: String) {
+  listCars(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      brand
+      model
+      description
+      photo
+    }
+    nextToken
+  }
+}

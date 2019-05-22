@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateCar {
+  onCreateCar {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}
+subscription OnUpdateCar {
+  onUpdateCar {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}
+subscription OnDeleteCar {
+  onDeleteCar {
+    id
+    brand
+    model
+    description
+    photo
+  }
+}

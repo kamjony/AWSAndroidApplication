@@ -1,0 +1,7 @@
+type Car @model {
+  id: ID!
+  brand: String!
+  model: String!
+  description: String
+  photo: String
+}
